@@ -1,0 +1,1518 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagramas del CDT" id="pg-cdt">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg-clases-1" value="DIAGRAMA DE CLASES" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="380" y="15" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-2" value="Main" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="450" y="70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-clases-2" vertex="1">
+          <mxGeometry x="0" y="26" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-4" value="Main()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-2" vertex="1">
+          <mxGeometry x="0" y="34" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-5" value="Presentacion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="316" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-clases-5" vertex="1">
+          <mxGeometry x="0" y="26" width="316" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-7" value="Presentacion()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-5" vertex="1">
+          <mxGeometry x="0" y="34" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-8" value="capturarCDT(): CDT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-5" vertex="1">
+          <mxGeometry x="0" y="60" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-9" value="presentarProyeccion(proyeccion: Proyeccion)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-5" vertex="1">
+          <mxGeometry x="0" y="86" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-10" value="mostrarError(mensaje: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-5" vertex="1">
+          <mxGeometry x="0" y="112" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-11" value="formatearPesos(valor: double): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-5" vertex="1">
+          <mxGeometry x="0" y="138" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-12" value="Validador" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="500" width="316" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-clases-12" vertex="1">
+          <mxGeometry x="0" y="26" width="316" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-14" value="convertirMonto(texto: String): Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4;" parent="pg-clases-12" vertex="1">
+          <mxGeometry x="0" y="34" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-15" value="validarMonto(texto: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4;" parent="pg-clases-12" vertex="1">
+          <mxGeometry x="0" y="60" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-16" value="validarPlazo(texto: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4;" parent="pg-clases-12" vertex="1">
+          <mxGeometry x="0" y="86" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-17" value="Proyeccion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="590" y="240" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-18" value="cdt: CDT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-19" value="filas: Lista&amp;lt;FilaProyeccion&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-20" value="saldoFinal: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-21" value="totalIntereses: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="104" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="130" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-23" value="Proyeccion(cdt: CDT)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="138" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-24" value="generarProyeccion()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-17" vertex="1">
+          <mxGeometry x="0" y="164" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-25" value="CDT" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="430" y="500" width="250" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-26" value="monto: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-25" vertex="1">
+          <mxGeometry x="0" y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-27" value="plazo: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-25" vertex="1">
+          <mxGeometry x="0" y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-28" value="tasaMensual: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-25" vertex="1">
+          <mxGeometry x="0" y="78" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-clases-25" vertex="1">
+          <mxGeometry x="0" y="104" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-30" value="CDT(monto: double, plazo: int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-25" vertex="1">
+          <mxGeometry x="0" y="112" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-31" value="calcularTasa(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-25" vertex="1">
+          <mxGeometry x="0" y="138" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-32" value="FilaProyeccion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="730" y="500" width="404" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-33" value="mes: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-32" vertex="1">
+          <mxGeometry x="0" y="26" width="404" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-34" value="interes: Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-32" vertex="1">
+          <mxGeometry x="0" y="52" width="404" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-35" value="saldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-32" vertex="1">
+          <mxGeometry x="0" y="78" width="404" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-clases-32" vertex="1">
+          <mxGeometry x="0" y="104" width="404" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-37" value="FilaProyeccion(mes: int, interes: Double, saldo: double)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-clases-32" vertex="1">
+          <mxGeometry x="0" y="112" width="404" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-2" target="pg-clases-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-39" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-clases-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-2" target="pg-clases-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-41" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-clases-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1.000;exitY=0.305;exitDx=0;exitDy=0;entryX=0.000;entryY=0.263;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-5" target="pg-clases-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-43" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-clases-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-5" target="pg-clases-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-45" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-clases-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1.000;exitY=0.854;exitDx=0;exitDy=0;entryX=0.160;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-5" target="pg-clases-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-47" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-clases-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=0.200;exitY=1.000;exitDx=0;exitDy=0;entryX=0.840;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-17" target="pg-clases-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-49" value="cdt" parent="pg-clases-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=open;endFill=0;startSize=14;exitX=0.800;exitY=1.000;exitDx=0;exitDy=0;entryX=0.149;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-clases-17" target="pg-clases-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-clases-51" value="filas" parent="pg-clases-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-clases-52" value="1..*" parent="pg-clases-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint x="14" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-1" value="DIAGRAMA ESTRUCTURADO: estructura de módulos" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="300" y="769" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-2" value="Relaciones de uso entre clases" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="804" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-3" value="Main" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="450" y="834" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-estructura-3" vertex="1">
+          <mxGeometry x="0" y="26" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-5" value="Main()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-3" vertex="1">
+          <mxGeometry x="0" y="34" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-6" value="Presentacion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="984" width="316" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-estructura-6" vertex="1">
+          <mxGeometry x="0" y="26" width="316" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-8" value="Presentacion()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-6" vertex="1">
+          <mxGeometry x="0" y="34" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-9" value="capturarCDT(): CDT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-6" vertex="1">
+          <mxGeometry x="0" y="60" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-10" value="presentarProyeccion(proyeccion: Proyeccion)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-6" vertex="1">
+          <mxGeometry x="0" y="86" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-11" value="mostrarError(mensaje: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-6" vertex="1">
+          <mxGeometry x="0" y="112" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-12" value="formatearPesos(valor: double): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-6" vertex="1">
+          <mxGeometry x="0" y="138" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-13" value="Validador" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1224" width="316" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-estructura-13" vertex="1">
+          <mxGeometry x="0" y="26" width="316" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-15" value="convertirMonto(texto: String): Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4;" parent="pg-estructura-13" vertex="1">
+          <mxGeometry x="0" y="34" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-16" value="validarMonto(texto: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4;" parent="pg-estructura-13" vertex="1">
+          <mxGeometry x="0" y="60" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-17" value="validarPlazo(texto: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4;" parent="pg-estructura-13" vertex="1">
+          <mxGeometry x="0" y="86" width="316" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-18" value="Proyeccion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="590" y="984" width="250" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-estructura-18" vertex="1">
+          <mxGeometry x="0" y="26" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-20" value="Proyeccion(cdt: CDT)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-18" vertex="1">
+          <mxGeometry x="0" y="34" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-21" value="generarProyeccion()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-18" vertex="1">
+          <mxGeometry x="0" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-22" value="CDT" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1224" width="250" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-estructura-22" vertex="1">
+          <mxGeometry x="0" y="26" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-24" value="CDT(monto: double, plazo: int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-22" vertex="1">
+          <mxGeometry x="0" y="34" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-25" value="calcularTasa(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-22" vertex="1">
+          <mxGeometry x="0" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-26" value="FilaProyeccion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1224" width="404" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pg-estructura-26" vertex="1">
+          <mxGeometry x="0" y="26" width="404" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-28" value="FilaProyeccion(mes: int, interes: Double, saldo: double)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-estructura-26" vertex="1">
+          <mxGeometry x="0" y="34" width="404" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-3" target="pg-estructura-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-30" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-3" target="pg-estructura-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-32" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1.000;exitY=0.274;exitDx=0;exitDy=0;entryX=0.000;entryY=0.523;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-6" target="pg-estructura-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-34" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-6" target="pg-estructura-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-36" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1.000;exitY=0.823;exitDx=0;exitDy=0;entryX=0.160;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-6" target="pg-estructura-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-38" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.200;exitY=1.000;exitDx=0;exitDy=0;entryX=0.840;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-18" target="pg-estructura-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-40" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.800;exitY=1.000;exitDx=0;exitDy=0;entryX=0.149;entryY=0.000;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-18" target="pg-estructura-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-42" value="&amp;lt;&amp;lt;Use&amp;gt;&amp;gt;" parent="pg-estructura-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-estructura-43" value="Estructura de llamadas entre métodos" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1459" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-44" value="Presentacion.Presentacion()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1494" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-45" value="Validador.convertirMonto()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1548" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-46" value="Validador.validarMonto()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1548" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-46" target="pg-estructura-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-48" value="Validador.validarPlazo()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1602" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-49" value="Presentacion.mostrarError()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1656" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-50" value="Validador.convertirMonto()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1710" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-51" value="CDT.calcularTasa()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1764" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-52" value="CDT.CDT()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1764" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-52" target="pg-estructura-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-54" value="Presentacion.capturarCDT()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1656" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-54" target="pg-estructura-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-54" target="pg-estructura-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-54" target="pg-estructura-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-54" target="pg-estructura-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-54" target="pg-estructura-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-60" value="Proyeccion.Proyeccion()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1818" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-61" value="FilaProyeccion.FilaProyeccion()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1872" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-62" value="Proyeccion.generarProyeccion()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1872" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-62" target="pg-estructura-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-64" value="Presentacion.formatearPesos()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1926" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-65" value="Presentacion.presentarProyeccion()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1926" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-65" target="pg-estructura-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-67" value="Main.Main()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1710" width="270" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-67" target="pg-estructura-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-67" target="pg-estructura-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-67" target="pg-estructura-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-67" target="pg-estructura-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructura-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" source="pg-estructura-67" target="pg-estructura-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-1" value="DIAGRAMA ESTRUCTURADO: diseño de cada método (pseudocódigo)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="560" y="2067" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-2" value="Clase Main&lt;div&gt;Método Main()&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2122" width="560" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-3" value="presentacion = NUEVO Presentacion()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-2" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-4" value="cdt = presentacion.capturarCDT()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-2" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-5" value="proyeccion = NUEVO Proyeccion(cdt)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-2" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-6" value="proyeccion.generarProyeccion()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-2" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-7" value="presentacion.presentarProyeccion(proyeccion)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-2" vertex="1">
+          <mxGeometry x="0" y="140" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-8" value="Clase Validador&lt;div&gt;Método convertirMonto(texto: String): Double&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2122" width="560" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-9" value="texto = texto SIN &quot;$&quot; y SIN espacios" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-10" value="Si: texto CONTIENE &quot;,&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-11" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;texto = texto SIN &quot;.&quot; y CAMBIAR &quot;,&quot; por &quot;.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-12" value="Si No: Si texto tiene varios &quot;.&quot; o forma n.ddd (miles)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-13" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;texto = texto SIN &quot;.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="140" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-14" value="Si texto es número (signo opcional, dígitos, decimales opcionales)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="164" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-15" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ENTREGAR texto convertido a Double" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-16" value="ENTREGAR nulo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-8" vertex="1">
+          <mxGeometry x="0" y="212" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-17" value="Clase Validador&lt;div&gt;Método validarMonto(texto: String): String&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="2122" width="560" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-18" value="monto = Validador.convertirMonto(texto)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-17" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-19" value="Si: monto = nulo entonces ENTREGAR &quot;El monto debe ser un número válido.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-17" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-20" value="Si: monto &amp;lt;= 0 entonces ENTREGAR &quot;El monto debe ser mayor que cero.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-17" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-21" value="ENTREGAR &quot;&quot;  (vacío = sin error)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-17" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-22" value="Clase Validador&lt;div&gt;Método validarPlazo(texto: String): String&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="2292" width="560" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-23" value="texto = texto SIN espacios" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-24" value="Si: texto es entero (signo opcional y solo dígitos)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-25" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;plazo = texto convertido a entero" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-26" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si plazo &amp;lt; 1: ENTREGAR &quot;El plazo debe ser mayor o igual a 1 mes.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-27" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ENTREGAR &quot;&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="140" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-28" value="Si No: Si texto es decimal (usa &quot;.&quot; o &quot;,&quot;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="164" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-29" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ENTREGAR &quot;El plazo debe ser un número entero, no decimal.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-30" value="ENTREGAR &quot;El plazo debe ser un número entero.&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-22" vertex="1">
+          <mxGeometry x="0" y="212" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-31" value="Clase CDT&lt;div&gt;Método CDT(monto, plazo)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2316" width="560" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-32" value="this.monto = monto" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-31" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-33" value="this.plazo = plazo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-31" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-34" value="this.tasaMensual = this.calcularTasa()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-31" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-35" value="Clase CDT&lt;div&gt;Método calcularTasa(): double&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2388" width="560" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-36" value="tasa = 0.001695 * this.plazo + 0.0983   (en porcentaje)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-35" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-37" value="ENTREGAR tasa" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-35" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-38" value="Clase FilaProyeccion&lt;div&gt;Método FilaProyeccion(mes, interes, saldo)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2462" width="560" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-39" value="this.mes = mes" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-38" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-40" value="this.interes = interes" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-38" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-41" value="this.saldo = saldo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-38" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-42" value="Clase Proyeccion&lt;div&gt;Método Proyeccion(cdt)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2510" width="560" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-43" value="this.cdt = cdt" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-42" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-44" value="this.filas = lista vacía" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-42" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-45" value="this.saldoFinal = 0" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-42" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-46" value="this.totalIntereses = 0" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-42" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-47" value="Clase Proyeccion&lt;div&gt;Método generarProyeccion()&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="2558" width="560" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-48" value="saldo = this.cdt.monto" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-49" value="AGREGAR a this.filas: NUEVO FilaProyeccion(0, nulo, saldo)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-50" value="PARA mes DESDE 1 HASTA this.cdt.plazo:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-51" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;interes = saldo * (this.cdt.tasaMensual / 100)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-52" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;saldo = saldo + interes" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="140" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-53" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AGREGAR a this.filas: NUEVO FilaProyeccion(mes, interes, saldo)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="164" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-54" value="this.saldoFinal = saldo" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-55" value="this.totalIntereses = saldo - this.cdt.monto" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-47" vertex="1">
+          <mxGeometry x="0" y="212" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-56" value="Clase Presentacion&lt;div&gt;Método capturarCDT(): CDT&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2608" width="560" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-57" value="REPETIR" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-58" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;textoMonto = LEER &quot;Monto inicial (COP)&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-59" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;error = Validador.validarMonto(textoMonto)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-60" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si: error ≠ &quot;&quot; entonces this.mostrarError(error)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-61" value="HASTA QUE error = &quot;&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="140" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-62" value="monto = Validador.convertirMonto(textoMonto)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="164" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-63" value="REPETIR" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-64" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;textoPlazo = LEER &quot;Plazo (meses)&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="212" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-65" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;error = Validador.validarPlazo(textoPlazo)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="236" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-66" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si: error ≠ &quot;&quot; entonces this.mostrarError(error)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="260" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-67" value="HASTA QUE error = &quot;&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="284" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-68" value="plazo = textoPlazo convertido a entero" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="308" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-69" value="ENTREGAR NUEVO CDT(monto, plazo)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-56" vertex="1">
+          <mxGeometry x="0" y="332" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-70" value="Clase Presentacion&lt;div&gt;Método presentarProyeccion(proyeccion: Proyeccion)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2680" width="560" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-71" value="PARA CADA fila EN proyeccion.filas:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-72" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si: fila.interes = nulo entonces textoInteres = &quot;&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-73" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si No: textoInteres = this.formatearPesos(fila.interes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-74" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;MOSTRAR fila.mes, textoInteres, this.formatearPesos(fila.saldo)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="116" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-75" value="MOSTRAR &quot;Tasa mensual: &quot; + proyeccion.cdt.tasaMensual + &quot;%&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="140" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-76" value="MOSTRAR &quot;Saldo final: &quot; + this.formatearPesos(proyeccion.saldoFinal)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="164" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-77" value="MOSTRAR &quot;Total intereses: &quot; + this.formatearPesos(proyeccion.totalIntereses)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-70" vertex="1">
+          <mxGeometry x="0" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-78" value="Clase Presentacion&lt;div&gt;Método formatearPesos(valor: double): String&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="2824" width="560" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-79" value="texto = valor con 2 decimales y &quot;,&quot; como separador de miles" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-78" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-80" value="texto = CAMBIAR &quot;,&quot; por &quot;.&quot; y &quot;.&quot; por &quot;,&quot;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-78" vertex="1">
+          <mxGeometry x="0" y="68" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-81" value="ENTREGAR &quot;$ &quot; + texto" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-78" vertex="1">
+          <mxGeometry x="0" y="92" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-82" value="Clase Presentacion&lt;div&gt;Método mostrarError(mensaje: String)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2922" width="560" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-estructurados-83" value="MOSTRAR &quot;Error: &quot; + mensaje" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pg-estructurados-82" vertex="1">
+          <mxGeometry x="0" y="44" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-1" value="DIAGRAMA DE OBJETOS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2250" y="15" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-2" value="Caso 1: monto $ 1.000.000 y plazo 12 meses" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="70" width="760" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-3" value="cdt1: CDT" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-2" vertex="1">
+          <mxGeometry x="30" y="55" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-4" value="monto = 1000000.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-3" vertex="1">
+          <mxGeometry x="0" y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-5" value="plazo = 12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-3" vertex="1">
+          <mxGeometry x="0" y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-6" value="tasaMensual = 0.11864" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-3" vertex="1">
+          <mxGeometry x="0" y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-7" value="proyeccion1: Proyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-2" vertex="1">
+          <mxGeometry x="400" y="68" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-8" value="saldoFinal = 1014330.07" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-7" vertex="1">
+          <mxGeometry x="0" y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-9" value="totalIntereses = 14330.07" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-7" vertex="1">
+          <mxGeometry x="0" y="52" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="pg-objetos-2" edge="1" source="pg-objetos-7" target="pg-objetos-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-11" value="cdt" parent="pg-objetos-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0" relative="1" as="geometry">
+            <mxPoint x="0" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-12" value="fila1_0: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-2" vertex="1">
+          <mxGeometry x="30" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-13" value="mes = 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-12" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-14" value="interes = nulo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-12" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-15" value="saldo = 1000000.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-12" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-2" edge="1" source="pg-objetos-7" target="pg-objetos-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-17" value="filas" parent="pg-objetos-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-18" value="fila1_1: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-2" vertex="1">
+          <mxGeometry x="270" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-19" value="mes = 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-18" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-20" value="interes = 1186.40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-18" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-21" value="saldo = 1001186.40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-18" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-2" edge="1" source="pg-objetos-7" target="pg-objetos-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-23" value="filas" parent="pg-objetos-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-24" value="fila1_12: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-2" vertex="1">
+          <mxGeometry x="510" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-25" value="mes = 12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-24" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-26" value="interes = 1201.98" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-24" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-27" value="saldo = 1014330.07" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-24" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-2" edge="1" source="pg-objetos-7" target="pg-objetos-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-29" value="filas" parent="pg-objetos-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-30" value="Se muestran las filas de los meses 0, 1 y 12; los meses 2 a 11 se omiten por brevedad." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=2;" parent="pg-objetos-2" vertex="1">
+          <mxGeometry x="30" y="335" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-31" value="Caso 2: monto $ 5.000.000 y plazo 24 meses" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="480" width="760" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-32" value="cdt2: CDT" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-31" vertex="1">
+          <mxGeometry x="30" y="55" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-33" value="monto = 5000000.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-32" vertex="1">
+          <mxGeometry x="0" y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-34" value="plazo = 24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-32" vertex="1">
+          <mxGeometry x="0" y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-35" value="tasaMensual = 0.13898" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-32" vertex="1">
+          <mxGeometry x="0" y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-36" value="proyeccion2: Proyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-31" vertex="1">
+          <mxGeometry x="400" y="68" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-37" value="saldoFinal = 5169468.90" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-36" vertex="1">
+          <mxGeometry x="0" y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-38" value="totalIntereses = 169468.90" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-36" vertex="1">
+          <mxGeometry x="0" y="52" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="pg-objetos-31" edge="1" source="pg-objetos-36" target="pg-objetos-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-40" value="cdt" parent="pg-objetos-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0" relative="1" as="geometry">
+            <mxPoint x="0" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-41" value="fila2_0: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-31" vertex="1">
+          <mxGeometry x="30" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-42" value="mes = 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-41" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-43" value="interes = nulo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-41" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-44" value="saldo = 5000000.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-41" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-31" edge="1" source="pg-objetos-36" target="pg-objetos-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-46" value="filas" parent="pg-objetos-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-47" value="fila2_1: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-31" vertex="1">
+          <mxGeometry x="270" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-48" value="mes = 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-47" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-49" value="interes = 6949.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-47" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-50" value="saldo = 5006949.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-47" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-31" edge="1" source="pg-objetos-36" target="pg-objetos-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-52" value="filas" parent="pg-objetos-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-53" value="fila2_24: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-31" vertex="1">
+          <mxGeometry x="510" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-54" value="mes = 24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-53" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-55" value="interes = 7174.56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-53" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-56" value="saldo = 5169468.90" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-53" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-31" edge="1" source="pg-objetos-36" target="pg-objetos-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-58" value="filas" parent="pg-objetos-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-59" value="Se muestran las filas de los meses 0, 1 y 24; los meses 2 a 23 se omiten por brevedad." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=2;" parent="pg-objetos-31" vertex="1">
+          <mxGeometry x="30" y="335" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-60" value="Caso 3: monto $ 1.000.000 y plazo 1 mes (plazo mínimo)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="890" width="760" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-61" value="cdt3: CDT" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-60" vertex="1">
+          <mxGeometry x="30" y="55" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-62" value="monto = 1000000.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-61" vertex="1">
+          <mxGeometry x="0" y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-63" value="plazo = 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-61" vertex="1">
+          <mxGeometry x="0" y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-64" value="tasaMensual = 0.099995" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-61" vertex="1">
+          <mxGeometry x="0" y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-65" value="proyeccion3: Proyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-60" vertex="1">
+          <mxGeometry x="400" y="68" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-66" value="saldoFinal = 1000999.95" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-65" vertex="1">
+          <mxGeometry x="0" y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-67" value="totalIntereses = 999.95" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-65" vertex="1">
+          <mxGeometry x="0" y="52" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="pg-objetos-60" edge="1" source="pg-objetos-65" target="pg-objetos-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-69" value="cdt" parent="pg-objetos-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0" relative="1" as="geometry">
+            <mxPoint x="0" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-70" value="fila3_0: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-60" vertex="1">
+          <mxGeometry x="30" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-71" value="mes = 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-70" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-72" value="interes = nulo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-70" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-73" value="saldo = 1000000.00" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-70" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-60" edge="1" source="pg-objetos-65" target="pg-objetos-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-75" value="filas" parent="pg-objetos-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-objetos-76" value="fila3_1: FilaProyeccion" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="pg-objetos-60" vertex="1">
+          <mxGeometry x="270" y="215" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-77" value="mes = 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-76" vertex="1">
+          <mxGeometry x="0" y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-78" value="interes = 999.95" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-76" vertex="1">
+          <mxGeometry x="0" y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-79" value="saldo = 1000999.95" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pg-objetos-76" vertex="1">
+          <mxGeometry x="0" y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pg-objetos-60" edge="1" source="pg-objetos-65" target="pg-objetos-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-objetos-81" value="filas" parent="pg-objetos-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;" vertex="1" connectable="0">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint x="0" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-1" value="DIAGRAMA DE SECUENCIAS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2500" y="1375" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-2" value="Clase Main&lt;div&gt;Método: Main()&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="1430" width="1130" height="491" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-3" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="421" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-4" value=":Presentacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="300" y="50" width="100" height="421" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-5" value=":Main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="540" y="50" width="100" height="421" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-6" value=":Proyeccion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="780" y="50" width="100" height="421" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="585" y="103" width="10" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="345" y="187" width="10" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="825" y="313" width="10" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-2" vertex="1">
+          <mxGeometry x="345" y="355" width="10" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-11" value="ejecutar programa" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="115" as="sourcePoint" />
+            <mxPoint x="585" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-12" value="«create» Presentacion()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="157" as="sourcePoint" />
+            <mxPoint x="350" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-13" value="capturarCDT()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="199" as="sourcePoint" />
+            <mxPoint x="355" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-14" value="cdt: CDT" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="241" as="sourcePoint" />
+            <mxPoint x="585" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-15" value="«create» Proyeccion(cdt)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="283" as="sourcePoint" />
+            <mxPoint x="830" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-16" value="generarProyeccion()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="325" as="sourcePoint" />
+            <mxPoint x="825" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-17" value="presentarProyeccion(proyeccion)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="367" as="sourcePoint" />
+            <mxPoint x="355" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-18" value="muestra proyección y resultados" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="409" as="sourcePoint" />
+            <mxPoint x="110" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-19" value="Clase Presentacion&lt;div&gt;Método: capturarCDT(): CDT&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="1971" width="1410" height="1019" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-20" value=":Main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="949" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-21" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="310" y="50" width="100" height="949" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-22" value=":Presentacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="560" y="50" width="100" height="949" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-23" value=":Validador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="810" y="50" width="100" height="949" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-24" value=":CDT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="1060" y="50" width="100" height="949" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-25" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=60;height=22;fillColor=none;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="40" y="157" width="1350" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-26" value="[hasta que error = &quot;&quot;]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="104" y="157" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-27" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=60;height=22;fillColor=none;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="40" y="459" width="1350" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-28" value="[hasta que error = &quot;&quot;]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="104" y="459" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="605" y="103" width="10" height="846" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-30" value="capturarCDT()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="115" as="sourcePoint" />
+            <mxPoint x="605" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-31" value="solicita monto" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="197" as="sourcePoint" />
+            <mxPoint x="360" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-32" value="textoMonto" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="239" as="sourcePoint" />
+            <mxPoint x="605" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-33" value="validarMonto(textoMonto)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="281" as="sourcePoint" />
+            <mxPoint x="860" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-34" value="error: String" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="323" as="sourcePoint" />
+            <mxPoint x="615" y="323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-35" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="365" as="sourcePoint" />
+            <mxPoint x="615" y="389" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="365" />
+              <mxPoint x="660" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-36" value="[error ≠ &quot;&quot;]&lt;br&gt;mostrarError(error)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="667" y="357" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-37" value="solicita plazo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="499" as="sourcePoint" />
+            <mxPoint x="360" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-38" value="textoPlazo" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="541" as="sourcePoint" />
+            <mxPoint x="605" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-39" value="validarPlazo(textoPlazo)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="583" as="sourcePoint" />
+            <mxPoint x="860" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-40" value="error: String" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="625" as="sourcePoint" />
+            <mxPoint x="615" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-41" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="667" as="sourcePoint" />
+            <mxPoint x="615" y="691" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="667" />
+              <mxPoint x="660" y="691" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-42" value="[error ≠ &quot;&quot;]&lt;br&gt;mostrarError(error)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="667" y="659" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-43" value="convertirMonto(textoMonto)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="761" as="sourcePoint" />
+            <mxPoint x="860" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-44" value="monto: Double" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="803" as="sourcePoint" />
+            <mxPoint x="615" y="803" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-45" value="«create» CDT(monto, plazo)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="845" as="sourcePoint" />
+            <mxPoint x="1110" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-46" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="887" as="sourcePoint" />
+            <mxPoint x="1115" y="911" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="887" />
+              <mxPoint x="1160" y="911" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-47" value="calcularTasa()" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-19" vertex="1">
+          <mxGeometry x="1167" y="879" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-48" value="cdt: CDT" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="937" as="sourcePoint" />
+            <mxPoint x="110" y="937" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-49" value="Clase Proyeccion&lt;div&gt;Método: generarProyeccion()&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="3040" width="1310" height="655" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-50" value=":Main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-51" value=":Proyeccion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="360" y="50" width="100" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-52" value=":CDT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="660" y="50" width="100" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-53" value=":FilaProyeccion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="960" y="50" width="100" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-54" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=60;height=22;fillColor=none;" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="40" y="333" width="1250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-55" value="[mes = 1 .. plazo]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="104" y="333" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="405" y="103" width="10" height="482" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-57" value="generarProyeccion()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="115" as="sourcePoint" />
+            <mxPoint x="405" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-58" value="obtener datos del CDT" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="157" as="sourcePoint" />
+            <mxPoint x="710" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-59" value="monto, plazo, tasaMensual" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="199" as="sourcePoint" />
+            <mxPoint x="415" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-60" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="241" as="sourcePoint" />
+            <mxPoint x="415" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="241" />
+              <mxPoint x="460" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-61" value="saldo = monto" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="467" y="233" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-62" value="«create» FilaProyeccion(0, nulo, saldo)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="291" as="sourcePoint" />
+            <mxPoint x="1010" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-63" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="373" as="sourcePoint" />
+            <mxPoint x="415" y="397" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="373" />
+              <mxPoint x="460" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-64" value="interes = saldo * tasaMensual/100&lt;br&gt;saldo = saldo + interes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="467" y="365" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-65" value="«create» FilaProyeccion(mes, interes, saldo)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="437" as="sourcePoint" />
+            <mxPoint x="1010" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-66" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="509" as="sourcePoint" />
+            <mxPoint x="415" y="533" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="509" />
+              <mxPoint x="460" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-67" value="saldoFinal = saldo&lt;br&gt;totalIntereses = saldo - monto" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-49" vertex="1">
+          <mxGeometry x="467" y="501" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-68" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="573" as="sourcePoint" />
+            <mxPoint x="110" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-69" value="Clase Presentacion&lt;div&gt;Método: presentarProyeccion(proyeccion: Proyeccion)&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="3745" width="1190" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-70" value=":Proyeccion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-71" value=":Main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="320" y="50" width="100" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-72" value=":Presentacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="580" y="50" width="100" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-73" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="840" y="50" width="100" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-74" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=60;height=22;fillColor=none;" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="40" y="241" width="1130" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-75" value="[por cada fila]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="104" y="241" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="625" y="103" width="10" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-77" value="presentarProyeccion(proyeccion)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="115" as="sourcePoint" />
+            <mxPoint x="625" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-78" value="obtener filas y resultados" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="157" as="sourcePoint" />
+            <mxPoint x="110" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-79" value="filas, saldoFinal, totalIntereses" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="199" as="sourcePoint" />
+            <mxPoint x="625" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-80" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="281" as="sourcePoint" />
+            <mxPoint x="635" y="305" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="281" />
+              <mxPoint x="680" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-81" value="formatearPesos(valor)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="687" y="273" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-82" value="muestra mes, interés y saldo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="331" as="sourcePoint" />
+            <mxPoint x="890" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-83" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="403" as="sourcePoint" />
+            <mxPoint x="635" y="427" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="403" />
+              <mxPoint x="680" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-84" value="formatearPesos(saldoFinal)&lt;br&gt;formatearPesos(totalIntereses)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-69" vertex="1">
+          <mxGeometry x="687" y="395" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-85" value="muestra tasa mensual,&lt;br&gt;saldo final y total de intereses" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="481" as="sourcePoint" />
+            <mxPoint x="890" y="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-86" value="" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="523" as="sourcePoint" />
+            <mxPoint x="370" y="523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-87" value="Clase Validador&lt;div&gt;Método: validarMonto(texto: String): String&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="4400" width="840" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-88" value=":Presentacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-87" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="373" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-89" value=":Validador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-87" vertex="1">
+          <mxGeometry x="490" y="50" width="100" height="373" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-90" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=60;height=22;fillColor=none;" parent="pg-secuencia-87" vertex="1">
+          <mxGeometry x="40" y="207" width="780" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-91" value="[según el valor de monto]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-87" vertex="1">
+          <mxGeometry x="104" y="207" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-87" vertex="1">
+          <mxGeometry x="535" y="103" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-93" value="validarMonto(texto)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="115" as="sourcePoint" />
+            <mxPoint x="535" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-94" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="157" as="sourcePoint" />
+            <mxPoint x="545" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="157" />
+              <mxPoint x="590" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-95" value="monto = convertirMonto(texto)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-87" vertex="1">
+          <mxGeometry x="597" y="149" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-96" value="[monto = nulo] &quot;El monto debe ser un número válido.&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="247" as="sourcePoint" />
+            <mxPoint x="110" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-97" value="[monto &amp;lt;= 0] &quot;El monto debe ser mayor que cero.&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="289" as="sourcePoint" />
+            <mxPoint x="110" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-98" value="[monto &amp;gt; 0] &quot;&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="331" as="sourcePoint" />
+            <mxPoint x="110" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-99" value="Clase Validador&lt;div&gt;Método: validarPlazo(texto: String): String&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="4893" width="880" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-100" value=":Presentacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-99" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-101" value=":Validador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-99" vertex="1">
+          <mxGeometry x="530" y="50" width="100" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-102" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=60;height=22;fillColor=none;" parent="pg-secuencia-99" vertex="1">
+          <mxGeometry x="40" y="207" width="820" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-103" value="[según el contenido de texto]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-99" vertex="1">
+          <mxGeometry x="104" y="207" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-104" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-99" vertex="1">
+          <mxGeometry x="575" y="103" width="10" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-105" value="validarPlazo(texto)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="115" as="sourcePoint" />
+            <mxPoint x="575" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-106" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="157" as="sourcePoint" />
+            <mxPoint x="585" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="157" />
+              <mxPoint x="630" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-107" value="texto = texto sin espacios" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-99" vertex="1">
+          <mxGeometry x="637" y="149" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-108" value="[entero y plazo &amp;gt;= 1] &quot;&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="247" as="sourcePoint" />
+            <mxPoint x="110" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-109" value="[entero y plazo &amp;lt; 1] &quot;El plazo debe ser mayor o igual a 1 mes.&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="289" as="sourcePoint" />
+            <mxPoint x="110" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-110" value="[decimal] &quot;El plazo debe ser un número entero, no decimal.&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="331" as="sourcePoint" />
+            <mxPoint x="110" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-111" value="[otro caso] &quot;El plazo debe ser un número entero.&quot;" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="373" as="sourcePoint" />
+            <mxPoint x="110" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-112" value="Clase CDT&lt;div&gt;Método: CDT(monto: double, plazo: int)&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="5428" width="810" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-113" value=":Presentacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-112" vertex="1">
+          <mxGeometry x="60" y="50" width="100" height="333" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-114" value=":CDT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-112" vertex="1">
+          <mxGeometry x="460" y="50" width="100" height="333" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="pg-secuencia-112" vertex="1">
+          <mxGeometry x="505" y="103" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-116" value="«create» CDT(monto, plazo)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="115" as="sourcePoint" />
+            <mxPoint x="505" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-117" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="157" as="sourcePoint" />
+            <mxPoint x="515" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="157" />
+              <mxPoint x="560" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-118" value="this.monto = monto&lt;br&gt;this.plazo = plazo" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-112" vertex="1">
+          <mxGeometry x="567" y="149" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-119" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="221" as="sourcePoint" />
+            <mxPoint x="515" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="221" />
+              <mxPoint x="560" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-120" value="tasa = calcularTasa()" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-112" vertex="1">
+          <mxGeometry x="567" y="213" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-121" value="" style="html=1;endArrow=block;rounded=0;curved=0;" parent="pg-secuencia-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="271" as="sourcePoint" />
+            <mxPoint x="515" y="295" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="271" />
+              <mxPoint x="560" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-secuencia-122" value="this.tasaMensual = tasa" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" parent="pg-secuencia-112" vertex="1">
+          <mxGeometry x="567" y="263" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-secuencia-123" value="cdt: CDT" style="html=1;verticalAlign=bottom;endArrow=open;endFill=0;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=default;" parent="pg-secuencia-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="321" as="sourcePoint" />
+            <mxPoint x="110" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
